@@ -1,7 +1,7 @@
 .header{
     margin-top: 10px;
     border-bottom: 1px solid #ededef;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .info-bar {
@@ -51,5 +51,5 @@
 
 .menu-bar__icons img {
     width: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
