@@ -21,7 +21,7 @@ const Header = () => {
             </div>
             <div className='menu-bar'>
                 <div className='menu-bar__location'>
-                    <span>방화1동</span>
+                    <span>공항동</span>
                     <div className='menu-bar__location--icon'>
                         <img src={arrow} alt='arrow' />
                     </div>
