@@ -18,23 +18,31 @@
     cursor: pointer;
 }
 
-.navigation_bar__icons--home img{
+@keyframes icons-move-updown{
+    0%{
+        transform: translateY(0px);
+    }
+    30%{
+        transform: translateY(-5px);
+    }
+    70%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.navigation_bar__icons--img{
     width: 30px;
 }
-.navigation_bar__icons--building img{
-    width: 30px;
-}
-.navigation_bar__icons--mapPin img{
-    width: 30px;
-}
-.navigation_bar__icons--chat img{
-    width: 30px;
-}
-.navigation_bar__icons--user img{
-    width: 30px;
+
+/* navigation_bar__icons div를 호버했을때 아이콘 이미지에 애니메이션을 준다. */
+.navigation_bar__icons:hover .navigation_bar__icons--img{
+    animation: 1s icons-move-updown;
+    /* 뒤에 infinity 붙이면 계속 반복함*/
 }
 
 .navigation_bar__title {
     font-size: 12px;
-    /* font-weight: bold; */
 }

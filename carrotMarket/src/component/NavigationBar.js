@@ -30,7 +30,7 @@ const NavigationBar = () => {
         return(
           <div className='navigation_bar__icons' key={idx}
           onClick={()=>setMenuNum(item.idx)}>
-            <div className='navigation_bar__icons--home'>
+            <div className='navigation_bar__icons--img'>
               {item.idx === menuNum ?
               (<img src={item.solidIcon} alt={item.title} />)
               :
