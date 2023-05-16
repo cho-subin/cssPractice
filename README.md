@@ -44,4 +44,11 @@ https://github.com/whtnqls124578/cssPractice/assets/100771469/7e40126b-700e-4838
 animation 적용할 수 있는 구간을 정하고 각 구간별로 어떤 스타일을 적용시킬지 정하는 문법
 
 <img width="290" alt="스크린샷 2023-05-16 오후 8 16 50" src="https://github.com/whtnqls124578/cssPractice/assets/100771469/e9620fb4-cd9b-49aa-bca4-840ed94d0da9">
+<br>
+<br>
+%로 좀 더 액션을 디테일하게 쪼갤 수 있다.
+<br>
+<img width="290" alt="스크린샷 2023-05-16 오후 9 18 54" src="https://github.com/whtnqls124578/cssPractice/assets/100771469/702c473a-d7fd-47bd-af60-f2f7df061658">
+
+
 
