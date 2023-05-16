@@ -1,10 +1,11 @@
 import React from 'react';
+import Product from '../component/Product';
 import '../css/Main.css';
 
 const Main = () => {
   return (
     <div className='main'>
-        메인 리스트
+        <Product/>
     </div>
   )
 }

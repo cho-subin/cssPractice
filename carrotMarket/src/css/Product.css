@@ -1,0 +1,128 @@
+/* 여기는 rem으로 들어가야할듯 */
+
+.product{
+    display: flex;
+    justify-content:left;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+.product-list{
+    display: flex;
+    padding: 15px 0 15px 0;
+    flex-direction: row;
+    border-bottom: 1px solid #ededef;
+    width: 100vw;
+}
+
+.product-list__img{
+    width: 110px;
+    height: 110px;
+    margin: 0 20px;
+    /* background-color: antiquewhite; */
+}
+
+.product-list__img img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.product-list__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.product-list__info--title{
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.product-list__info--meta{
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgb(152, 152, 152);
+}
+
+.product-list__info--price{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:450px) {
+    .write__btn {
+        position: fixed;
+        bottom: 100px;
+        right: 20px;
+        width: 110px;
+        height: 50px;
+        background-color: #fe6f0f;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        padding-top: 18px;
+        box-sizing: border-box;
+    }
+
+    .write__btn--small {
+        display: none;
+    }
+
+    .propduct__blind--msg {
+        display: none;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .write__btn {
+        display: none;
+    }
+
+    .write__btn--small {
+        position: fixed;
+        bottom: 100px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        background-color: #fe6f0f;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 34px;
+        font-weight: bold;
+        color: white;
+        padding-top: 11px;
+        box-sizing: border-box;
+    }
+
+    .propduct__blind--msg {
+        display: none;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .propduct__blind--msg {
+        background-color: #fe6f0f;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: white;
+    }
+
+    .write__btn {
+        display: none;
+    }
+}
