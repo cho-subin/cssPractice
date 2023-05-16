@@ -1,5 +1,5 @@
 # cssPractice - React
-당근마켓 클론코딩을 통한 css 연습
+당근마켓 모바일용 main view 클론코딩을 통한 css 연습
 
 ### 👀 BEM 명명법
 BEM : Block-Element-Modifiter 세가지로 구성된 이름을 짓는다.
