@@ -36,3 +36,8 @@ css에서 어떤 조건에따라 선택적으로 적용하고 싶을때 사용.
 <br>@media (조건) {
   <br>스타일
 <br>}
+
+
+https://github.com/whtnqls124578/cssPractice/assets/100771469/7e40126b-700e-4838-90b8-83f4b0060892
+
+
