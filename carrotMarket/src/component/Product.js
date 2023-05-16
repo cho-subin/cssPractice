@@ -17,7 +17,7 @@ const Product = () => {
     { idx: 6, img: image5, title: '선풍기 급매', place: '공항동', time: '2일 전', price: '50,000원' },
   ])
 
-  console.log(productList)
+  // console.log(productList)
 
   return (
     <div className='product'>
