@@ -27,3 +27,12 @@ App.js에 입력할것들
 <img width="400" alt="스크린샷 2023-05-14 오전 12 58 26" src="https://github.com/whtnqls124578/cssPractice/assets/100771469/619abecb-7c0f-49d7-87ac-16101f10fcd0">
 <br>
 🐣 createGlobalStyle : 렌더링 될 때, 전역 스코프에 스타일을 올려준다.
+
+### 👀 media query
+
+css에서 어떤 조건에따라 선택적으로 적용하고 싶을때 사용.
+<br>if와 비슷하다.
+<br>
+<br>@media (조건) {
+  <br>스타일
+<br>}
